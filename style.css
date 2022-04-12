@@ -1,10 +1,10 @@
 body {
     background-color: black;
-    font-family: sans-serif;
+    font-family: arial;
 }
 
 .calBox {
-    background-color: rgb(240, 240, 240);
+    background-color: white;
     width: 80vw;
     margin: 3em auto;
     border-radius: 1.5em;
@@ -12,7 +12,8 @@ body {
 }
 
 .calHeading {
-    color: rgb(45, 45, 45, 0.7);
+    color: grey;
+    font-family: verdana;
     text-shadow: 1px 1px #ccc;
     text-align: center;
     margin-top: 0;
@@ -38,6 +39,7 @@ body {
 
 button {
     width: 10em;
+    cursor: pointer;
 }
 
 input {
@@ -45,10 +47,13 @@ input {
 }
 
 select {
-    width: 10%;
+    width: 15%;
 }
 
 #message {
+    width: 600px;
+    margin: auto;
     margin-top: 1.3em;
     font-weight: 550;
+    text-align: justify;
 }

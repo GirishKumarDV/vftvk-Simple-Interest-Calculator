@@ -17,7 +17,7 @@ function computeInterest() {
         document.getElementById("amount").focus();
     } else {
         var messageElement = document.getElementById("message");
-        messageElement.innerHTML = `If you deposit <span class="value">${principle}</span>,\nat an interest rate of <span class="value">${rate}%</span>.\nYou will recieve an amount of <span class="value">${futureAmount}</span>,\nin the year <span class="value">${currentYear+period}</span>`
+        messageElement.innerHTML = `If you deposit <span class="value">${principle}</span>,<br>at an interest rate of <span class="value">${rate}%</span>.<br>You will recieve an amount of <span class="value">${futureAmount}</span>,<br>in the year <span class="value">${currentYear+period}</span>`
     }
 }
 
