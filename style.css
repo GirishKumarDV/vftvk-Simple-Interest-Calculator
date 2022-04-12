@@ -28,8 +28,7 @@ body {
 }
 
 .inputFields {
-    justify-content: flex-end;
-    width: 50%;
+    justify-content: center;
     display: grid;
     grid-template-columns: 20em 20em;
     margin: auto;
