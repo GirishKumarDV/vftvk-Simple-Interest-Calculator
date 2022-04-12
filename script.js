@@ -13,7 +13,7 @@ function computeInterest() {
     let currentYear = new Date().getFullYear();
 
     if (!principle || principle <= 0) {
-        alert("Enter a positive number");
+        if (!alert("Enter a positive number")) { window.location.reload(); }
         document.getElementById("amount").focus();
     } else {
         var messageElement = document.getElementById("message");
